@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Adega.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#5e2129" Padding="24" CornerRadius="0">
+            <Label Text="Adega's" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <ListView x:Name="lstVinhos"  ItemSelected="ItemSelecionado">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal"
+                                     BackgroundColor="#EEE">
+                            <Image Source="{Binding Foto}" />
+                            <StackLayout Orientation="Vertical">
+                                <Label Text="{Binding Nome}"
+                                       TextColor="#5e2129"
+                                       HorizontalOptions="Start"/>
+                                <Label Text="{Binding Pais}"
+                                       HorizontalOptions="Start"
+                                       TextColor="#5e2129"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button x:Name="btnAdiconar" 
+                Text="Adicionar"
+                BackgroundColor="#5e2129"
+                TextColor="White"
+                Clicked="BtnAdiconar"
+                WidthRequest="200" />
+        <Button x:Name="btnSair" 
+                Text="Sair"
+                BackgroundColor="#5e2129"
+                TextColor="White"
+                Clicked="BtnSair"
+                WidthRequest="200" />
+
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Adega.DadosVinho">
+    <ContentPage.Content>
+        <StackLayout Padding="10,20,10,10" Orientation="Vertical">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="Código:" 
+                       FontSize="Small"
+                       Grid.Row="0"
+                       Grid.ColumnSpan="2"/>
+                <Label Text="{Binding Id}" 
+                       Grid.Row="1"
+                       Grid.ColumnSpan="2"/>
+                <Label Text="Nome:" 
+                       FontSize="Small"
+                       Grid.Row="2"
+                       Grid.ColumnSpan="2"/>
+                <Entry Text="{Binding Nome}" 
+                       Grid.Row="3"
+                       Grid.ColumnSpan="2"/>
+                
+                <Label Text="Pais:" 
+                       FontSize="Small"
+                       Grid.Row="4"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="1"/>
+                <Entry Text="{Binding Pais}" 
+                       Grid.Row="5"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="1"/>
+                <Label Text="Tipo:" 
+                       FontSize="Small"
+                       Grid.Row="4"
+                       Grid.Column="1"
+                       Grid.ColumnSpan="1"/>
+                <Entry Text="{Binding Tipo}" 
+                       Grid.Row="5"
+                       Grid.Column="1"
+                       Grid.ColumnSpan="1"/>
+                <Label Text="Uva" 
+                       FontSize="Small"
+                       Grid.Row="6"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="1"/>
+                <Entry Text="{Binding Uva}" 
+                       Grid.Row="7"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="1"/>
+                <Label Text="Data Prova:" 
+                       FontSize="Small"
+                       Grid.Row="6"
+                       Grid.Column="1"
+                       Grid.ColumnSpan="1"/>
+                <Entry Text="{Binding DataProva}" 
+                       Grid.Row="7"
+                       Grid.Column="1"
+                       Grid.ColumnSpan="1"/>
+                <Label Text="Comentario" 
+                       FontSize="Small"
+                       Grid.Row="8"
+                       Grid.ColumnSpan="2"/>
+                <Entry Text="{Binding Comentario}"
+                       Grid.Row="9"
+                       Grid.ColumnSpan="2"/>
+
+            </Grid>
+            
+            <Button x:Name="btnSalvarVinho" 
+                    Text="Salvar"
+                    BackgroundColor="#5e2129"
+                    TextColor="White"
+                    Clicked="BtnSalvarVinho"
+                    WidthRequest="200" />
+            <Button x:Name="btnApagarVinho" 
+                    Text="Apagar"
+                    BackgroundColor="#5e2129"
+                    TextColor="White"
+                    Clicked="BtnApagarVinho"
+                    WidthRequest="200" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+D:\ProjAndroidIFSP\Adega\Adega\Adega\bin\Debug\netstandard2.0\Adega.deps.json
+D:\ProjAndroidIFSP\Adega\Adega\Adega\bin\Debug\netstandard2.0\Adega.dll
+D:\ProjAndroidIFSP\Adega\Adega\Adega\obj\Debug\netstandard2.0\Adega.csprojAssemblyReference.cache
+D:\ProjAndroidIFSP\Adega\Adega\Adega\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\ProjAndroidIFSP\Adega\Adega\Adega\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\ProjAndroidIFSP\Adega\Adega\Adega\obj\Debug\netstandard2.0\Adega.AssemblyInfoInputs.cache
+D:\ProjAndroidIFSP\Adega\Adega\Adega\obj\Debug\netstandard2.0\Adega.AssemblyInfo.cs
+D:\ProjAndroidIFSP\Adega\Adega\Adega\obj\Debug\netstandard2.0\Adega.csproj.CoreCompileInputs.cache
+D:\ProjAndroidIFSP\Adega\Adega\Adega\obj\Debug\netstandard2.0\Adega.dll
+D:\ProjAndroidIFSP\Adega\Adega\Adega\obj\Debug\netstandard2.0\ref\Adega.dll
+D:\ProjAndroidIFSP\Adega\Adega\Adega\obj\Debug\netstandard2.0\Adega.pdb
+D:\ProjAndroidIFSP\Adega\Adega\Adega\obj\Debug\netstandard2.0\DadosVinho.xaml.g.cs
+D:\ProjAndroidIFSP\Adega\Adega\Adega\bin\Debug\netstandard2.0\ref\Adega.dll
+D:\ProjAndroidIFSP\Adega\Adega\Adega\bin\Debug\netstandard2.0\Adega.pdb
+D:\ProjAndroidIFSP\Adega\Adega\Adega\obj\Debug\netstandard2.0\XamlC.stamp
